@@ -16,7 +16,7 @@ function pegarId(){
 function buscarEmailNoBanco(id){
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve("jenifer@reprograma.com")
+            resolve("idaliamedeiros@hotmail.com")
         },2000);
     })
 }
@@ -26,7 +26,7 @@ function enviarEmail(corpo, para){
         setTimeout(() => {  
             var deuErro = false;
             if(!deuErro){
-                resolve({time: 6, to: "jenifer@reprograma.com"}) // Promessa OK!
+                resolve({time: 1, to: "idaliamedeiros@hotmail.com"}) // Promessa OK!
             }else{
                 reject("Fila cheia") // Foi mal, eu falhei :(
             }

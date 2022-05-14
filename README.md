@@ -3,45 +3,54 @@
 
 ## Turma Online Todas em Tech - Back-end | Semana 7: Event Loop, Callbacks, Promises e Async/Await
 
-## Combinados:
+## Assuntos da semana: 
 
-#### 🤚 Levantar a mão pra falar;
-#### 🤷‍♀️ Dúvidas por favor coloquem no chat;
-#### 🎙 Manter o microfone mutado durante a aula.
-
-### [Slides da aula](https://docs.google.com/presentation/d/1hik5KVEutK7ec1MHRnNEDy5NikDGC8GP/edit?usp=sharing&ouid=103451384479324478678&rtpof=true&sd=true)
-
-## Assuntos em sala: 
-
-#### 📝 O que é programação síncrona;
-#### 📝 Programação assíncrona;
 #### 📝 Event Loop;
 #### 📝 Callbacks;
 #### 📝 Promises;
+#### 📝 Programação síncrona e assíncrona;
 #### 📝 Async/Await.
+</br>
 
+![monophy](https://media1.giphy.com/media/XUFPGrX5Zis6Y/giphy.gif?cid=790b7611a79b0fb1a7954ccaf52f1bbcfaa56a2b8dd40428&rid=giphy.gif&ct=g)
 
-### Vamos para a aula? 👩‍💻 
-![monophy](https://media.giphy.com/media/TRUJ0BJOxOmru/giphy.gif)
+</br>
 
-### Para Casa: 👩‍💻 
+## Evento Loop
 
-#### 📝 Faça um fork do repositório, faça o desafio da promessa utilizando async / await, sobe a solução para o git e abra um [Pull Request](https://github.com/grupy-sp/encontros/wiki/Como-sincronizar-o-seu-Fork-com-o-repo-principal) com a solução. 
-#### 📝 O Código está na pasta Para Casa.
-#### 📝 Dica de ouro: Vai ter uma das promises que vc não vai precisar usar await.
+O Event Loop é um recurso da arquitetura do Node. É um fluxo de controle determinado por eventos ou alterações de estado, a maioria das implementações possuem um core (central) que escuta todos os eventos e chama seus respectivos callbacks quando eles são lançados (ou têm seu estado alterado). </br>
 
+## Callbacks
 
-### Links para estudo 👩‍💻
-### - [Promises](https://medium.com/trainingcenter/entendendo-promises-de-uma-vez-por-todas-32442ec725c2)
+Callback é uma função que é usada como "callback", passada a outra função como argumento, que é então invocado dentro da função externa para completar algum tipo de rotina ou ação. Callbacks são normalmente utilizadas para continuar a execução do código após uma operação assíncrona ser terminada.
 
-### -  [async/await](https://medium.com/balta-io/nodejs-async-await-21ca3636252a)
+## Promises
 
+Promises são um padrão de desenvolvimento que visam representar a conclusão de operações assíncronas. São um conceito essencial do JavaScript e estão presentes em praticamente todo o ecossistema da linguagem. </br>
+Ddefinem uma ação que vai ser executada no futuro, podendo ser resolvida (com sucesso) ou rejeitada (com erro). 
+</br>
+</br>
+Uma Promise pode assumir quatro estados principais:
 
-## Sucesso Amadxs 🥰
+* Pending: O estado inicial da Promise, ela foi iniciada mas ainda não foi realizada nem rejeitada.
+* Fulfilled: Sucesso da operação, é o que se chama de uma Promise realizada (ou, em inglês, resolved).
+* Rejected: Falha da operação, é o que chama de uma Promise rejeitada (rejected).
+* Settled: É o estado final da Promise, quando ela já sabe se foi resolvida ou rejeitada.
 
+## Programação síncrona e assíncrona
 
-![monophy](https://user-images.githubusercontent.com/66445871/132948479-b243916d-9fbf-4f84-aec2-07e21374f8e7.gif)
+Forma síncrona: o código espera ser totalmente executado para prosseguir.
+</br>
+Forma assíncrona: o código continua progredindo e em um ponto futuro obtém a resposta da execução assíncrona.
 
+## Async/Await
 
+O Async/Await permite que se guarde as chamadas aos métodos assíncronos antes de prosseguir. Pode-se utilizar o async/await para acesso ao banco de dados, trabalhos com arrays, funções e diversas outras coisas.
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 
-
+![monophy](https://media3.giphy.com/media/WkKwYyYriekqk/giphy.gif?cid=ecf05e47ro568zige1mljm51h44j3lmmehj8shg3ks57px8u&rid=giphy.gif&ct=gt=g)
